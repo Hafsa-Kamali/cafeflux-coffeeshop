@@ -50,7 +50,7 @@ export default function Navbar() {
                 <FaRegHeart className="block h-4 w-4 md:w-6 md:h-6 text-[#38220f] hover:scale-110 cursor-pointer" />
                 <GrCart className="h-4 w-4 md:w-6 md:h-6 text-[#38220f] hover:scale-110 cursor-pointer" />
                 <Image
-                  src="/assets/hafsa.png"
+                  src="/assets/hafsa.PNG"
                   alt="avatar"
                   width={50}
                   height={50}

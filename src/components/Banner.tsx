@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Banner() {
   return (
-    <div className='relative overflow-hidden bg-gradient-to-r from-[#967259] to-[#634832] font-family px-6 py-12 mb-7'>
+    <div className='relative overflow-hidden bg-gradient-to-r from-[#967259] to-[#634832] font-family px-6 py-12 mb-7 '>
     <div className='absolute inset-0 opacity-30'>
   <Image
   src="/assets/latte-beans.png"
@@ -15,7 +15,7 @@ export default function Banner() {
     </div>
 
     <div className='relative z-10 container mx-auto flex flex-col justify-center items-center'>
-     <h2 className='text-5xl font-bold text-white mb-4'>
+     <h2 className=' text-4xl md:text-6xl font-bold text-white mb-4'>
      Discover The Best Coffee In Town
      </h2>
       <p className='text-white text-center text-lg mb-6 max-w-xl'>

@@ -4,32 +4,32 @@ import Image from 'next/image';
 const products = [
   {
     id: 1,
-    title: "Spanish Mocha latte",
-    price: "$350",
-    image: "/assets/mocha latte.jpg",
-    bgColor: "#634832",
-    category: "Coffee"
+    title: "Dulce de leche Latte",
+    price: "$320",
+    image: "/assets/Dulce-de-leche-latte-15.jpg",
+    bgColor: "#967259",
+    category: "Latte"
   },
   {
     id: 2,
-    title: "Peanut Butter Latte",
-    price: "$260",
-    image: "/assets/peanut latte 2.jpg",
-    bgColor: "#967259",
-    category: "Latte"
+    title: "Hazelnut Coffee",
+    price: "$560",
+    image: "/assets/hazelnut latte.jpg",
+    bgColor: "#634832",
+    category: "Coffee"
   },
   
   {
     id: 3,
-    title: "Italian Capuccino",
-    price: "$450",
-    image: "/assets/cuppacino.avif",
-    bgColor: "#634832",
-    category: "Capuccino"
+    title: "American Espresso",
+    price: "$230",
+    image: "/assets/espresso.jpg",
+    bgColor: "#967259",
+    category: "Espresso"
   }
 ];
 
-export default function ProductList() {
+export default function Coffee() {
   return (
     <div className="p-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       {products.map((product) => (
