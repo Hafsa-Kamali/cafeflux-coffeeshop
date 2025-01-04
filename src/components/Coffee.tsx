@@ -6,7 +6,7 @@ const products = [
     id: 1,
     title: "Dulce de leche Latte",
     price: "$320",
-    image: "/assets/Dulce-de-leche-latte-15.jpg",
+    image: "/assets/Dulce-de-Leche-Latte-15.jpg",
     bgColor: "#967259",
     category: "Latte"
   },
