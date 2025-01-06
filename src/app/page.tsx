@@ -6,6 +6,9 @@ import Progressor from '@/components/Progressor';
 import Coffee from '@/components/Coffee';
 import MenuItems from '@/components/MenuItems';
 import ProductList from '@/components/ProductList';
+import Offer from '@/components/Offer';
+import FloatingImageContentBlock from '@/components/Card';
+import ReservationSection from '@/components/Reservation';
 
 
 export default function page() {
@@ -18,6 +21,9 @@ export default function page() {
 <Banner/>
 <Coffee/>
 <MenuItems/>
+<Offer/>
+<FloatingImageContentBlock/>
+<ReservationSection/>
     </div>
   )
 }

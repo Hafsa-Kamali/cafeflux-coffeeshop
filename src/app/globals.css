@@ -17,9 +17,6 @@ body{
     font-family: 'Playfair Display', serif;
 }
 
-h1{
-    font-family: ' Dancing Script', cursive;
-}
 
 .scrollbar-hide::-webkit-scrollbar {
     display: none;
@@ -27,4 +24,9 @@ h1{
 .scrollbar-hide{
     scrollbar-width: none;
     -ms-overflow-style: none;
+}
+@layer base {
+  :root {
+        --radius: 0.5rem;
+    }
 }

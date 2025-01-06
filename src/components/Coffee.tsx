@@ -18,7 +18,6 @@ const products = [
     bgColor: "#634832",
     category: "Coffee"
   },
-  
   {
     id: 3,
     title: "American Espresso",

@@ -21,7 +21,7 @@ export default function Navbar() {
                   height={150}
                   className="w-12 h-12 rounded-full hover:scale-110 shadow-[#38220f] shadow-md"
                 />
-                <h2 className="text-2xl text-[#38220f] font-semibold">Cafeflux.</h2>
+                <h2 className="text-2xl text-[#38220f] font-semibold">Cafeflux<span className="text-[#967259]">.</span></h2>
               </div>
 
               {/* Delivery Time - Hidden on mobile */}

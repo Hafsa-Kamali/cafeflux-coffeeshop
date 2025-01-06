@@ -15,7 +15,7 @@ export default function Banner() {
     </div>
 
     <div className='relative z-10 container mx-auto flex flex-col justify-center items-center'>
-     <h2 className=' text-4xl md:text-6xl font-bold text-white mb-4'>
+     <h2 className=' text-2xl md:text-6xl font-bold text-white mb-4'>
      Discover The Best Coffee In Town
      </h2>
       <p className='text-white text-center text-lg mb-6 max-w-xl'>
