@@ -1,13 +1,15 @@
+"use client"
 import React from "react";
 import Image from "next/image";
 import { IoSearchOutline } from "react-icons/io5";
 import { IoIosFlash } from "react-icons/io";
 import { GrCart } from "react-icons/gr";
 import { FaRegHeart } from "react-icons/fa";
+import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <div className="w-full">
+    <div className="w-full z-50">
       <div className="max-w-7xl mx-auto px-4">
         <div className="py-4">
           <div className="py-3 px-4 rounded-xl border border-[#dbc1ac]">
@@ -34,7 +36,7 @@ export default function Navbar() {
               </div>
 
               {/* Right Section with Search, Icons, and Profile */}
-              <div className="flex items-center space-x-4">
+              <div className="flex items-center space-x-4 z-50">
                 <div className="hidden md:flex items-center">
                   <div className="relative">
                     <input
@@ -48,7 +50,9 @@ export default function Navbar() {
                 </div>
                 
                 <FaRegHeart className="block h-4 w-4 md:w-6 md:h-6 text-[#38220f] hover:scale-110 cursor-pointer" />
-                <GrCart className="h-4 w-4 md:w-6 md:h-6 text-[#38220f] hover:scale-110 cursor-pointer" />
+                <Link href="/Cart" className="relative">
+  <GrCart className="h-4 w-4 md:w-6 md:h-6 text-[#38220f] hover:scale-110 cursor-pointer" />
+</Link>
                 <Image
                   src="/assets/hafsa.PNG"
                   alt="avatar"

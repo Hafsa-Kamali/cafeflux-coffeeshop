@@ -4,11 +4,12 @@ import Carasouel from '@/components/Carasouel';
 import Banner from '@/components/Banner';
 import Progressor from '@/components/Progressor';
 import Coffee from '@/components/Coffee';
-import MenuItems from '@/components/MenuItems';
 import ProductList from '@/components/ProductList';
 import Offer from '@/components/Offer';
 import FloatingImageContentBlock from '@/components/Card';
 import ReservationSection from '@/components/Reservation';
+import CafefluxFooter from '@/components/Footer';
+import Products from '@/components/Product/page';
 
 
 export default function page() {
@@ -20,10 +21,11 @@ export default function page() {
 <ProductList/>
 <Banner/>
 <Coffee/>
-<MenuItems/>
+<Products />
 <Offer/>
 <FloatingImageContentBlock/>
 <ReservationSection/>
+<CafefluxFooter/>
     </div>
   )
 }
