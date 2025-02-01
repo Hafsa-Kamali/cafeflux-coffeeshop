@@ -149,7 +149,7 @@ export default function CartPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="md:col-span-2 space-y-6">
               {cartItems.map((item, index) => (
-                <div key={index} className="flex items-center bg-[#ece0d1] p-4 rounded-lg shadow-md border border-[#967259]">
+                <div key={index} className="flex items-center bg-[#ece0d1] p-4 rounded-lg shadow-[#38220f] shadow-md border border-[#967259]">
                   <Image
                     src={item.imageUrl || "/placeholder.jpg"}
                     alt={item.title}

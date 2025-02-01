@@ -10,12 +10,14 @@ import FloatingImageContentBlock from '@/components/Card';
 import ReservationSection from '@/components/Reservation';
 import CafefluxFooter from '@/components/Footer';
 import Products from '@/components/Product/page';
+import MobileNavbar from '@/components/MobileNav';
 
 
 export default function page() {
   return (
     <div className="bg-[#F7E1BC] min-h-screen">
-<Navbar />
+      <MobileNavbar/>
+<Navbar  />
 <Carasouel/>
 <Progressor/>
 <ProductList/>

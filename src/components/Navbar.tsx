@@ -9,7 +9,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <div className="w-full z-50">
+    <div className="w-full z-50 hidden md:block">
       <div className="max-w-7xl mx-auto px-4">
         <div className="py-4">
           <div className="py-3 px-4 rounded-xl border border-[#dbc1ac]">
