@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { IoIosFlash } from "react-icons/io";
 import { GrCart } from "react-icons/gr";
-import { FaRegHeart, FaTrash, FaArrowLeft, FaCheckCircle, FaMinus, FaPlus } from "react-icons/fa";
+import { FaRegHeart, FaTrash, FaArrowLeft, FaCheckCircle, FaMinus, FaPlus, FaRegUser } from "react-icons/fa";
 import { AiFillHome } from "react-icons/ai";
 import Link from "next/link";
 
@@ -108,6 +108,7 @@ export default function CartPage() {
                   {/* Heart Icon */}
                   <FaRegHeart className="h-6 w-6 text-[#38220f] hover:scale-110 cursor-pointer" />
 
+<Link href="/SignIn">  <FaRegUser className="h-6 w-6 text-[#38220f] hover:scale-110 cursor-pointer" /></Link>
                   {/* Cart Icon with Count */}
                   <Link href="/Cart" className="relative">
                     <GrCart className="h-7 w-7 text-[#38220f] hover:scale-110 cursor-pointer" />
@@ -223,11 +224,12 @@ export default function CartPage() {
   </div>
 
   {/* Checkout Button */}
+  <Link href="/Checkout" >  
   <button
     className="w-full bg-[#38220f] text-lg text-[#ece0d1] border-[#967259] border-2 shadow-[#38220f] shadow-md font-semibold hover:bg-[#ece0d1] hover:text-[#38220f] transition-colors duration-300 px-4 py-2 rounded-lg mt-4 flex items-center justify-center gap-2"
   >
     <FaCheckCircle /> Proceed to Checkout
-  </button>
+  </button></Link>
 </div>
           </div>
         )}

@@ -4,7 +4,7 @@ import Image from "next/image";
 import { IoSearchOutline } from "react-icons/io5";
 import { IoIosFlash } from "react-icons/io";
 import { GrCart } from "react-icons/gr";
-import { FaRegHeart } from "react-icons/fa";
+import { FaRegHeart, FaRegUser } from "react-icons/fa";
 import Link from "next/link";
 
 export default function Navbar() {
@@ -52,6 +52,9 @@ export default function Navbar() {
                 <FaRegHeart className="block h-4 w-4 md:w-6 md:h-6 text-[#38220f] hover:scale-110 cursor-pointer" />
                 <Link href="/Cart" className="relative">
   <GrCart className="h-4 w-4 md:w-6 md:h-6 text-[#38220f] hover:scale-110 cursor-pointer" />
+</Link>
+<Link href="/SignIn">
+<FaRegUser className='mr-2 h-4 w-4 md:w-6 md:h-6 text-[#38220f] hover:scale-110 cursor-pointer' />
 </Link>
                 <Image
                   src="/assets/hafsa.PNG"
