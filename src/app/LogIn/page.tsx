@@ -33,8 +33,8 @@ const Login = () => {
     <div className="overflow-x-hidden min-h-screen bg-[#F7E1BC]">
       <NavMobile />   
       <Navbar/>
-      <div className="flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col md:flex-row bg-white shadow-xl rounded-2xl overflow-hidden max-w-5xl w-full shadow-[#38220f]">
+      <div className="flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8 min-h-screen mt-20 md:mt-0">
+        <div className="flex flex-col md:flex-row bg-white shadow-xl rounded-2xl overflow-hidden max-w-5xl w-full shadow-[#38220f] ">
           {/* Left Side - Decorative Side */}
           <div className="w-full md:w-1/2 bg-[#634832] relative hidden md:flex flex-col justify-between p-8">
             <div className="relative z-10">

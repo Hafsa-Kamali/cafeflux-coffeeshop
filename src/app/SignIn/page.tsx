@@ -87,7 +87,7 @@ const Signin = () => {
   if (!user) return <Login />;
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-[#ECE0D1] px-6 py-12">
+    <div className="min-h-screen flex items-center justify-center bg-[#ECE0D1] px-6 py-12 ">
       <div className="bg-white rounded-2xl shadow-lg overflow-hidden w-full max-w-6xl flex flex-col md:flex-row shadow-[#38220F]">
         {/* Left Sidebar - Navigation */}
         <div className="w-full md:w-1/4 bg-[#634832] text-white p-6">

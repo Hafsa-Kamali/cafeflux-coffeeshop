@@ -4,7 +4,7 @@ import Image from "next/image";
 import { IoIosFlash, IoIosMenu, IoIosClose } from "react-icons/io";
 import { IoSearchOutline } from "react-icons/io5";
 import { GrCart } from "react-icons/gr";
-import { FaRegHeart } from "react-icons/fa";
+import { FaRegHeart, FaRegUser } from "react-icons/fa";
 import Link from "next/link";
 
 export default function MobileNavbar() {
@@ -74,8 +74,12 @@ export default function MobileNavbar() {
 
                 {/* Icons */}
                 <FaRegHeart className="h-6 w-6 text-[#38220f] hover:scale-110 cursor-pointer" />
+                
                 <Link href="/Cart" className="relative">
                   <GrCart className="h-6 w-6 text-[#38220f] hover:scale-110 cursor-pointer" />
+                </Link>
+                <Link href="/SignIn" >
+               <FaRegUser className='w-6 h-6 text-[#38220f] hover:scale-110 cursor-pointer' />
                 </Link>
                 <Image
                   src="/assets/hafsa.PNG"
@@ -118,6 +122,9 @@ export default function MobileNavbar() {
                   {/* Icons */}
                   <div className="flex items-center justify-around">
                     <FaRegHeart className="h-6 w-6 text-[#38220f] hover:scale-110 cursor-pointer" />
+                    <Link href="/SignIn" >
+               <FaRegUser className='w-6 h-6 text-[#38220f] hover:scale-110 cursor-pointer' />
+                </Link>
                     <Link href="/Cart" className="relative">
                       <GrCart className="h-6 w-6 text-[#38220f] hover:scale-110 cursor-pointer" />
                     </Link>
